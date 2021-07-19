@@ -38,6 +38,13 @@ their category or quickly find a certain character by searching for
 its name. KCharSelect displays various information about the selected
 character.
 
+%description -l pl.UTF-8
+KCharSelect jest narzędziem do zaznaczania znaków specjalnych ze
+wszystkich zainstalowanych czcionek i kopiowanie ich do schowka.
+Możesz przeglądać znaki według kategorii i szybko znaleźć odpowiedni
+znak szukając według jego nazwy. KCharSelect wyświetla też różne
+informacje o zaznaczonym znaku.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 

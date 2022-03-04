@@ -1,15 +1,15 @@
-%define		kdeappsver	21.12.2
+%define		kdeappsver	21.12.3
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kcharselect
 Summary:	Kcharselect
 Name:		ka5-%{kaname}
-Version:	21.12.2
+Version:	21.12.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	51cf27f8a8a579aad8a4e3355d3a9ba0
+# Source0-md5:	69f5cb4e62e71145f49baff5caf61849
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
